@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Inter', sans-serif; */
+/* px -> rem: https://nekocalc.com/px-to-rem-converter */
+.max-w-8xl {
+  max-width: 90rem;
+}
+
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --off-white: #fefdf9;
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --v-dark-blue: hsl(240, 100%, 5%);
+}
+
+body {
+  background-color: var(--off-white);
+}
+.text-soft-orange {
+  color: var(--soft-orange);
+}
+/* Fonts */
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.inter-700 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.inter-800 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+.bg-v-d-blue {
+  background-color: var(--v-dark-blue);
+}
+.bg-s-red {
+  background-color: var(--soft-red);
+}
